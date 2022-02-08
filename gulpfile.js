@@ -35,7 +35,7 @@ function css() {
         .pipe(browsersync.stream());
 }
 
-// CSS 
+// JS
 
 function js() {
     const source = './src/js/*';
