@@ -26,12 +26,46 @@ function clear() {
 // CSS 
 
 function css() {
-    const source = './src/css/*';
+    const source = './src/css/*.css';
 
     return src(source)
         .pipe(changed(source))
         .pipe(cssnano())
         .pipe(dest('./build/css/'))
+        .pipe(browsersync.stream());
+}
+
+//fonts
+
+function fonts() {
+    const source = './src/css/fonts/*';
+
+    return src(source)
+        .pipe(changed(source))
+        //it can't compresed to cssnano
+        .pipe(dest('./build/css/fonts/'))
+        .pipe(browsersync.stream());
+}
+
+//ibm font
+
+function ibm() {
+    const source = './src/css/fonts/IBM_Plex_Serif/*.ttf';
+
+    return src(source)
+        .pipe(changed(source))
+        .pipe(dest('./build/css/fonts/IBM_Plex_Serif/'))
+        .pipe(browsersync.stream());
+}
+
+//roboto font
+
+function roboto() {
+    const source = './src/css/fonts/Roboto/*.ttf';
+
+    return src(source)
+        .pipe(changed(source))
+        .pipe(dest('./build/css/fonts/Roboto/'))
         .pipe(browsersync.stream());
 }
 
@@ -65,7 +99,10 @@ function html() {
 // Watch files
 
 function watchFiles() {
-    watch('./src/css/*', css);
+    watch('./src/css/fonts/IBM_Plex_Serif/*.ttf', ibm);
+    watch('./src/css/fonts/Roboto/*.ttf', roboto);
+    watch('./src/css/fonts/fonts.css', fonts);
+    watch('./src/css/style.css', css);
     watch('./src/js/*', js);
     watch('./src/*.html', html);
     watch('./src/images/*', img);
@@ -83,4 +120,4 @@ function browserSync() {
 }
 
 exports.watch = parallel(watchFiles, browserSync);
-exports.default = series(clear, parallel(html, js, css, img));
+exports.default = series(clear, parallel(html, js, fonts, ibm, roboto, css,  img));
