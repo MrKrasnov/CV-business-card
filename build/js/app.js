@@ -20,8 +20,9 @@ document.querySelector('#experience-section').innerHTML = expirienceData;
 
 document.querySelector('.contacts-block').innerHTML += `<li><a href="tel:${data.phone}">${data.phone}</a></li>`
 document.querySelector('.contacts-block').innerHTML += `<li><a href="mailto:${data.email}">${data.email}</a></li>`
-document.querySelector('.contacts-block').innerHTML += `<li><a href="callto:${data.skype}">${data.skype}</a></li>`
-document.querySelector('.contacts-block').innerHTML += `<li><a href="${data.linkedin}">${data.linkedin}</a></li>`
+document.querySelector('.contacts-block').innerHTML += `<li><a href="${data.linkedin}">link to linkedin</a></li>`
+document.querySelector('.contacts-block').innerHTML += `<li><a href="${data.djinni}">link to djinni</a></li>`
+document.querySelector('.contacts-block').innerHTML += `<li><a href="${data.djinni}">link to CV file</a></li>`
 document.querySelector('.address').innerHTML = `<p>${data.address}</p>`;
 document.querySelector('#my-photo').src = data.photo;
 
@@ -51,6 +52,6 @@ document.querySelector('#education-list').innerHTML = educationData;
 
 let achievementsData = '';
 data.achievements.forEach(item => {
-    achievementsData += `<li>${item},</li>`;
+    achievementsData += `<li>${item}</li>`;
 });
 document.querySelector('#achievements-list').innerHTML = achievementsData;

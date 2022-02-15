@@ -1,26 +1,18 @@
 const experience = [
     {
-        "company": "COMPANY NAME 3",
-        "city": "Tayler",
-        "from": "2016",
+        "company": "Freelance",
+        "city": "Odessa",
+        "from": "2021",
         "to": 'Present',
-        "position": "your position",
-        "description": "Replace with your key responsibilities, accomplishments and skills that may relevant to the position you are applying for Include the keywords from the listing to capture the employer’s attention and to match applicant tracking system requirements Transform your responsibilities into quantifiable achievements by brainstorming for any numbers relevant to your key duties"
+        "position": "Developer",
+        "description": "I was creating clone websites, connect API."
     },
     {
-        "company": "COMPANY NAME",
-        "city": "NEW YORK",
-        "from": "2016",
-        "to": 'Present',
-        "position": "your position",
-        "description": "Replace with your key responsibilities, accomplishments and skills that may relevant to the position you are applying for Include the keywords from the listing to capture the employer’s attention and to match applicant tracking system requirements Transform your responsibilities into quantifiable achievements by brainstorming for any numbers relevant to your key duties"
+        "company": "Mail",
+        "city": "Odessa",
+        "from": "2020",
+        "to": '2021',
+        "position": "Operator",
+        "description": "Sending parcels. Working through ubuntu."
     },
-    {
-        "company": "COMPANY NAME 2",
-        "city": "London",
-        "from": "2013",
-        "to": '2014',
-        "position": "your position",
-        "description": "Replace with your key responsibilities, accomplishments and skills that may relevant to the position you are applying for Include the keywords from the listing to capture the employer’s attention and to match applicant tracking system requirements Transform your responsibilities into quantifiable achievements by brainstorming for any numbers relevant to your key duties"
-    }
 ]
