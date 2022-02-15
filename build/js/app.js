@@ -22,7 +22,8 @@ document.querySelector('.contacts-block').innerHTML += `<li><a href="tel:${data.
 document.querySelector('.contacts-block').innerHTML += `<li><a href="mailto:${data.email}">${data.email}</a></li>`
 document.querySelector('.contacts-block').innerHTML += `<li><a href="${data.linkedin}">link to linkedin</a></li>`
 document.querySelector('.contacts-block').innerHTML += `<li><a href="${data.djinni}">link to djinni</a></li>`
-document.querySelector('.contacts-block').innerHTML += `<li><a href="${data.djinni}">link to CV file</a></li>`
+document.querySelector('.contacts-block').innerHTML += `<li><a href="${data.github}">link to GitHub</a></li>`
+document.querySelector('.contacts-block').innerHTML += `<li><a href="${data.googledrive}">link to CV file</a></li>`
 document.querySelector('.address').innerHTML = `<p>${data.address}</p>`;
 document.querySelector('#my-photo').src = data.photo;
 

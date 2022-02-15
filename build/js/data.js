@@ -7,6 +7,7 @@ const data = {
     "email": "yuramk1@gmail.com",
     "djinni": 'https://djinni.co/q/ce79ff6001/',
     "linkedin": "https://www.linkedin.com/in/yuri-krasnov-9468b019b/",
+    "github": "https://github.com/MrKrasnov",
     "googledrive": "https://drive.google.com/drive/folders/1NKkUTon2G_R0CilY78ZYYlvuhXYTD45d",
     "address": "65000 Mel'nyts'ka St, Odessa",
     "skills": [
