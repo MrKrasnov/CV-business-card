@@ -1,5 +1,5 @@
 const data = {
-    "first_name": "Yurii",
+    "first_name": "Yuri",
     "last_name": "Krasnov",
     "job_title": "Front-End Developer",
     "photo": "images/mini.jpg",
