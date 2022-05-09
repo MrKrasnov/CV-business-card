@@ -22,7 +22,7 @@ const data = {
         ["2015-2019", "College of Computer Technology"],
     ],
     "achievements": [
-        "I have finished course of HTML for JS developers",
+        "I have <a href='https://drive.google.com/drive/folders/1ehnlJAFvp7cXkILQcPtXd1qIRJ1-RC1c'>certificates</a> ",
     ],
     "profile": "I have year of experience in the Web. I have finished course of layout and taked certificate. I took part in different projects with the freelance place and too real life. I was taking part in the layout of applications with vue and other tasks, for example. I learn react.js, and typescript for future projects."
 };

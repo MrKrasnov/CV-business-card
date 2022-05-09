@@ -5,7 +5,7 @@ const experience = [
         "from": "2021",
         "to": 'Present',
         "position": "Developer",
-        "description": "I was creating clone websites, connect API."
+        "description": "I was creating clone websites, created new landing pages, participated in part time projects"
     },
     {
         "company": "Mail",
