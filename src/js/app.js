@@ -12,7 +12,7 @@ const achievements = document.getElementById('achievements-list');
 
 myName.innerHTML = `${data.first_name} <span class="color-grey">${data.last_name}</span>`;
 myJob.textContent = data.job_title;
-meDesc.textContent = data.profile;
+meDesc.innerHTML = data.profile;
 /**
  * section data
  */

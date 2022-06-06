@@ -24,5 +24,9 @@ const data = {
     "achievements": [
         "I have <a href='https://drive.google.com/drive/folders/1ehnlJAFvp7cXkILQcPtXd1qIRJ1-RC1c'>certificates</a> ",
     ],
-    "profile": "I have year of experience in the Web. I have finished course of layout and taked certificate. I took part in different projects with the freelance place and too real life. I was taking part in the layout of applications with vue and other tasks, for example. I learn react.js, and typescript for future projects."
+    "profile": `Hello, I'm front-end developer from Ukraine. </br></br>
+    I\'m hard-working. I always do my best to collaborate with designers and team members to create user friendly, responsive and intuitive user interfaces.
+    I finished some the courses you can review it from my site.
+    I love creating high performance and flexible components and combine them to solve complex tasks and build modern, secure web applications.
+        I'm experienced in creating applications.`
 };
