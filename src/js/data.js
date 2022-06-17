@@ -13,11 +13,13 @@ const data = {
     "skills": [
         "HTML5",
         "CSS3",
+        'SASS/SCSS',
         "JavaScript",
         "TypeScript",
+        "Angular",
         "React.js",
+        'Phaser3',
         "Vue",
-        "English B1"
     ],
     "education": [
         ["2015-2019", "College of Computer Technology"],
