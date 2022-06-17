@@ -19,7 +19,7 @@ const data = {
         "Angular",
         "React.js",
         'Phaser3',
-        "Vue",
+        "Vue (Beginner)",
     ],
     "education": [
         ["2015-2019", "College of Computer Technology"],
