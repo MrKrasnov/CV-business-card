@@ -4,7 +4,7 @@ const experience = [
         "city": "Odesa",
         "from": "2022",
         "to": 'present',
-        "position": "Software developer",
+        "position": "Software Developer",
         "description": "Writing functionality for internal services of the company."
     },
     {
