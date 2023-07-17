@@ -30,13 +30,7 @@ experienceDiv.innerHTML = experienceData;
  * contact data
  */
 
-contact.innerHTML += `<li><a href="tel:${data.phone}">${data.phone}</a></li>`
-contact.innerHTML += `<li><a href="mailto:${data.email}">${data.email}</a></li>`
-contact.innerHTML += `<li><a href="${data.linkedin}">link to linkedin</a></li>`
-contact.innerHTML += `<li><a href="${data.djinni}">link to djinni</a></li>`
-contact.innerHTML += `<li><a href="${data.github}">link to GitHub</a></li>`
-contact.innerHTML += `<li><a href="${data.googledrive}">link to CV file</a></li>`
-adress.innerHTML = `<p>${data.address}</p>`;
+adress.innerHTML = `<p>${data.phone} <br> ${data.email} <br> ${data.address}</p>`;
 photo.src = data.photo;
 /**
  * skills

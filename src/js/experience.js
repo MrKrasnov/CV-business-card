@@ -1,18 +1,18 @@
 const experience = [
     {
-        "company": "Freelance",
-        "city": "Odessa",
-        "from": "2021",
-        "to": 'Present',
-        "position": "Developer",
-        "description": "I was creating websites, created new landing pages, participated in part time projects"
+        "company": "Nektony",
+        "city": "Odesa",
+        "from": "2022",
+        "to": 'present',
+        "position": "Software developer",
+        "description": "Writing functionality for internal services of the company."
     },
     {
-        "company": "Mail",
-        "city": "Odessa",
-        "from": "2020",
-        "to": '2021',
-        "position": "Operator",
-        "description": "Sending parcels. Working through ubuntu."
-    },
+        "company": "Freelance",
+        "city": "Odesa",
+        "from": "2021",
+        "to": '2022',
+        "position": "Developer",
+        "description": "I've been involved in website development, component layout in JS frameworks, and I've also done some non-complex server-side interaction in PHP."
+    }
 ]
